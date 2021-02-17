@@ -55,12 +55,11 @@ p{
 }
 
 .header-text{
-    margin: 150px 0;
 }
 
 
 .category-box{
-    padding-bottom: 150px;
+    /*margin-bottom: 80px;*/
 }
 
 .category-link__icon {
@@ -73,6 +72,23 @@ p{
     max-width: 160px;
 }
 
+.header-arrow{
+    width: 80px;
+    height: auto;
+    animation-name: down;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+@keyframes down {
+    0%,100%{transform:translateY(0)}
+    50%{transform:translateY(20px)}
+}
 
 .footer{
     background-color: #670108;
