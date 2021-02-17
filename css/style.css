@@ -41,11 +41,11 @@ p{
 }
 
 
-.header-menu__text, .logo{
+.header-menu__text, .logo, .footer-logo {
     font-size: 26px;
 }
 
-.header-tel{
+.header-tel, .footer-tel{
     font-size: 20px;
 }
 
@@ -71,4 +71,13 @@ p{
 .category-link__text{
     font-size: 24px;
     max-width: 160px;
+}
+
+
+.footer{
+    background-color: #670108;
+}
+
+.footer-menu{
+    font-size: 20px;
 }
