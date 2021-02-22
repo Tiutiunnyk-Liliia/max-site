@@ -280,3 +280,35 @@ h1, h2, h3, h4, h5, h6{
     color: #fff;
     box-shadow: 1px 4px 16px 11px rgba(179,1,14, 0.3);
 }
+
+
+/*PRODUCT*/
+
+.products{
+    padding: 100px 0;
+    border-bottom: 1px solid  #2a2b30;
+}
+
+.product{
+    border: 1px solid #2a2b30;
+    box-shadow: 1px 4px 10px 8px rgba(42,43,48, 0.2);
+    padding: 40px;
+}
+
+.product-info{
+    padding-right: 80px;
+}
+
+.product-info-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-img img{
+    width: 100%;
+    height: auto;
+}
+
+.similar-products{
+    padding: 100px 0;
+}
