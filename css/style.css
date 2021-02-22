@@ -156,6 +156,7 @@ h1, h2, h3, h4, h5, h6{
     color: #fff;
 }
 
+
 .section-main__info-button{
     font-size: 24px;
     color: #fff;
@@ -197,4 +198,59 @@ h1, h2, h3, h4, h5, h6{
 
 .footer-menu{
     font-size: 18px;
+}
+
+
+
+/*CATALOG*/
+
+.catalog-descr{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.catalog-card{
+    width: 30%;
+    padding: 25px;
+    border: 1px solid #2a2b30;
+    box-shadow: 1px 4px 10px 8px rgba(42,43,48, 0.2);
+    margin-bottom: 50px;
+}
+
+.catalog-card:hover{
+    box-shadow: 1px 4px 10px 8px rgba(42,43,48, 0.4);
+}
+
+.catalog-card .card{
+    border: none;
+}
+
+.card-title{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.card-text{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.catalog-button{
+    font-size: 24px;
+    line-height: 60px;
+    color: #fff;
+    background-color: #9a010c;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 8px;
+    transition: all .3s;
+}
+
+.catalog-button:hover{
+    font-size: 26px;
+    font-weight: 700;
+    color: #fff;
+    box-shadow: 1px 4px 16px 11px rgba(179,1,14, 0.3);
 }
