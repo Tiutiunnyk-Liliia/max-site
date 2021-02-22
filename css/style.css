@@ -1,10 +1,11 @@
 html{
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+
 }
 
 body{
     color: #050C0D;
+    font-family: 'Roboto', sans-serif;
 }
 
 *, *::before, *::after{
@@ -97,8 +98,15 @@ h1, h2, h3, h4, h5, h6{
     height: 40px;
 }
 
-.header-text{
+.header-title{
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    font-size: 100px;
+    line-height: 110px;
+    color: #fff;
+    text-transform: uppercase;
 }
+
 
 .category-link{
     border-radius: 8px;
@@ -132,7 +140,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .header-arrow{
-    width: 50px;
+    width: 66px;
     height: auto;
     animation-name: down;
     animation-duration: 2s;
@@ -217,6 +225,10 @@ h1, h2, h3, h4, h5, h6{
 
 
 /*CATALOG*/
+
+.catalog{
+    margin: 100px 0;
+}
 
 .catalog-descr{
     font-size: 20px;
