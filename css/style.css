@@ -103,10 +103,13 @@ h1, h2, h3, h4, h5, h6{
 .category-link{
     border-radius: 8px;
     transition: all .3s;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .category-link:hover{
     box-shadow: 0 2px 8px 8px rgba(255, 255, 255, .4);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .category-link__icon {
