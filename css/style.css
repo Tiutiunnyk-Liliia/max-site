@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6{
     top: 60px;
     left: 0;
     width: 100%;
-    height: 500px;
+    height: 420px;
     overflow: hidden;
     /*background-color: #400105;*/
     background-color: #2a2b30;
@@ -70,18 +70,20 @@ h1, h2, h3, h4, h5, h6{
     transform: translateX(0);
 }
 
-.nav-link{
+.menu .nav-link{
     color: #fff;
     padding: 0.2rem 1rem;
+    display: inline-block;
+    transition: all 0.3s;
 }
 
-.nav-link:hover{
+.menu .nav-link:hover{
     color: #fff;
     box-shadow: 0 2px 8px 8px rgba(255, 255, 255, .13);
     border-radius: 8px;
 }
 
-.nav-link--category{
+.menu .nav-link--category{
     font-weight: 700;
     font-size: 22px;
 }
@@ -98,9 +100,13 @@ h1, h2, h3, h4, h5, h6{
 .header-text{
 }
 
+.category-link{
+    border-radius: 8px;
+    transition: all .3s;
+}
 
-.category-box{
-    /*margin-bottom: 80px;*/
+.category-link:hover{
+    box-shadow: 0 2px 8px 8px rgba(255, 255, 255, .4);
 }
 
 .category-link__icon {
@@ -114,7 +120,12 @@ h1, h2, h3, h4, h5, h6{
 
 .category-link__text{
     font-size: 24px;
+    line-height: 30px;
     max-width: 160px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .header-arrow{
