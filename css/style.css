@@ -330,6 +330,10 @@ h1, h2, h3, h4, h5, h6{
     box-shadow: 1px 4px 16px 11px rgba(179,1,14, 0.3);
 }
 
+.information{
+    margin: 100px 0;
+}
+
 
 /*PRODUCT*/
 
@@ -360,4 +364,15 @@ h1, h2, h3, h4, h5, h6{
 
 .similar-products{
     padding: 100px 0;
+}
+
+/*CONSTRUCTION*/
+
+.construction-button{
+    max-width: 300px;
+}
+
+.construction-button-img{
+    width: 26px;
+    height: auto;
 }
