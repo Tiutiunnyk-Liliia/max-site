@@ -59,7 +59,7 @@ h3{
     top: 60px;
     left: 0;
     width: 100%;
-    height: 420px;
+    height: 425px;
     overflow: hidden;
     /*background-color: #400105;*/
     /*background-color: #2a2b30;*/
@@ -76,7 +76,7 @@ h3{
 
 .menu .nav-link{
     color: #fff;
-    padding: 0.2rem 1rem;
+    padding: 0.1rem 1rem;
     display: inline-block;
     transition: all 0.3s;
 }
@@ -410,4 +410,13 @@ h3{
 
 .service-list{
     padding-left: 40px;
+}
+
+
+
+
+/*MEDIA*/
+
+@media (max-width: 1200px) {
+    
 }
