@@ -253,9 +253,11 @@ h3{
     margin-bottom: 50px;
 }
 
-.catalog-card{
+.catalog-card {
     display: block;
-    width: 30%;
+}
+
+.catalog-card-inner{
     padding: 25px;
     border: 1px solid #2a2b30;
     box-shadow: 1px 4px 10px 8px rgba(42,43,48, 0.2);
@@ -263,7 +265,7 @@ h3{
     background-color: #fff;
 }
 
-.catalog-card:hover{
+.catalog-card-inner:hover{
     box-shadow: 1px 4px 10px 8px rgba(42,43,48, 0.4);
 }
 
@@ -336,6 +338,11 @@ h3{
 .product-info-item{
     display: flex;
     justify-content: space-between;
+}
+
+.product-img{
+    display: flex;
+    align-items: center;
 }
 
 .product-img img{
@@ -463,6 +470,10 @@ h3{
     .categories-info{
         padding: 15px;
     }
+
+    /*.product-img{*/
+    /*    order: 1;*/
+    /*}*/
 
 }
 
