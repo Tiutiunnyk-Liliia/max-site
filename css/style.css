@@ -500,7 +500,13 @@ h3{
         padding: 15px;
     }
 
+    .footer-menu{
+        order: 2;
+    }
 
+}
+
+@media (max-width: 576px){
 
 }
 
