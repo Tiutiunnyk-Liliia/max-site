@@ -420,7 +420,36 @@ h3{
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
+
+    .information {
+        margin: 50px 0;
+    }
+
+    .product {
+        padding: 15px;
+        margin: 0 1px;
+    }
+
+    .product-info{
+        padding: 0;
+    }
+
+    .service{
+        padding: 50px 0;
+    }
+
+    .service-inner{
+        padding: 50px 0;
+        margin: 0 1px;
+    }
+
+    .service-img {
+        margin: 15px 0;
+    }
+}
+
+    @media (max-width: 767px) {
 
     .menu{
         height: auto;
@@ -471,14 +500,7 @@ h3{
         padding: 15px;
     }
 
-    .product {
-        padding: 15px;
-        margin: 0 1px;
-    }
 
-    .product-info{
-        padding: 0;
-    }
 
 }
 
