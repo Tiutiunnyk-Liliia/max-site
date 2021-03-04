@@ -471,9 +471,14 @@ h3{
         padding: 15px;
     }
 
-    /*.product-img{*/
-    /*    order: 1;*/
-    /*}*/
+    .product {
+        padding: 15px;
+        margin: 0 1px;
+    }
+
+    .product-info{
+        padding: 0;
+    }
 
 }
 
