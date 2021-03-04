@@ -422,6 +422,11 @@ h3{
 
 @media (max-width: 991px) {
 
+    .header-title{
+        font-size: 80px;
+        line-height: 90px;
+    }
+
     .information {
         margin: 50px 0;
     }
@@ -473,8 +478,13 @@ h3{
     }
 
     .header-title {
-        font-size: 60px;
-        line-height: 70px;
+        font-size: 50px;
+        line-height: 55px;
+    }
+
+    .header-title.header-title__small{
+        font-size: 45px;
+        line-height: 55px;
     }
 
     .categories-item{
@@ -507,7 +517,10 @@ h3{
 }
 
 @media (max-width: 576px){
-
+    .header-title.header-title__small{
+        font-size: 35px;
+        line-height: 45px;
+    }
 }
 
 @media (max-width: 400px){
@@ -515,5 +528,15 @@ h3{
     .category-link{
         margin: 10px auto;
         max-width: 150px;
+    }
+
+    .header-title{
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .header-title.header-title__small{
+        font-size: 26px;
+        line-height: 35px;
     }
 }
